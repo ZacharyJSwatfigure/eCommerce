@@ -10,7 +10,7 @@ Tag.init(
       type: DataTypes.INTEGER,
       primaryKey: true,
       allowNull: false,
-      refernces: {
+      references: {
         model: 'product_tag',
         key: 'tag_id',
       }

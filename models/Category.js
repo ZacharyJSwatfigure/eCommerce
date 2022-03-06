@@ -10,7 +10,7 @@ Category.init(
       type: DataTypes.INTEGER,
       primaryKey: true,
       allowNull: false,
-      refernces: {
+      references: {
         model: 'product',
         key: 'category_id',
       }
